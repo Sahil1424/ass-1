@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.example.javaassignment1.Controller">
+    <BarChart fx:id="barChart" layoutX="20.0" layoutY="20.0">
+        <xAxis>
+            <CategoryAxis side="BOTTOM" label="Product"/>
+        </xAxis>
+        <yAxis>
+            <NumberAxis side="LEFT" label="Number of Recommendations"/>
+        </yAxis>
+    </BarChart>
+</StackPane>
